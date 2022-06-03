@@ -4,9 +4,24 @@
     padding: 0;
 }
 body{
-    
+
 }
 /*=================header=================*/
 .header{
     background-color: #521378;
+    display: flex;
+    justify-content: center;
+}
+.header_i{
+    margin-top: 16px;
+    margin-bottom: 23px;
+    max-width: 80px;
+}
+.header__faq{
+    background-color: #190E38;
+}
+.faq__i{
+    max-width: 1920px;
+    max-height: 640px;
+    width: 100%;
 }
