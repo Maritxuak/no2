@@ -53,7 +53,7 @@ body{
     margin: 0 15px;
 }
 .slider_text{
-    font-family: 'SF Pro Display';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
@@ -100,12 +100,10 @@ body{
     justify-content: center;
 }
 .one_block_1{
-    padding-top:38px;
-    padding-left: 400px;
-    padding-right: 400px;
+    margin-top:38px;
     max-width: 1170px;
     width: 100%;
-    height: 100px;
+    height: 583px;
     position: absolute;
     background-color: #521378;
     bottom: 5px;
@@ -216,6 +214,69 @@ p{
     line-height: 33px;
     color: #FFFFFF;
     text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.secret{
+    color:#FBDE01;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom:30px;
+}
+.left{
+    padding-left: 106px;
+    padding-top: 42px;
+    text-transform: uppercase;
+}
+.left_knop{
+    padding-top:30px;
+    padding-bottom:30px;
+    background-color: #00B74A;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    margin-right: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.right_knop{
+    padding-top:30px;
+    padding-bottom:30px;
+    background-color: #ED9D00;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+.left_knop_img{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+.right_knop_img{
+    text-decoration: none;
+    color:#FFFFFF;
+    max-width: 100px;
+    width: 100%;
+    text-align: center;
+}
+.bottom_knop{
+    display: flex;
+    justify-content: center;
+}
+.right{
+    margin-right:235px;
+    margin-top:100px;
+}
+.text2{
+    background-color: #592FA5;
+    color:#FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    border-radius: 4px;
 }
 /*====================Second__section================*/
 .img2_i{
