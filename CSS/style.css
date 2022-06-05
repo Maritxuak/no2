@@ -284,6 +284,9 @@ p{
     right: -110px;
     top: -70px;
 }
+.controler_slide_right,.controler_slide_left{
+    cursor: pointer;
+}
 /*====================Second__section================*/
 .img2_i{
     height: 99px;
