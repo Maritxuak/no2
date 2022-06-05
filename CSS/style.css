@@ -7,6 +7,11 @@ body{
     width: 100%;
     background-color: #190E38;
 }
+.maincontainer{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
 /*=================header=================*/
 .header{
     background-color: #521378;
@@ -399,4 +404,97 @@ p{
     align-items:center;
     flex-direction: column;
 }
-/*==================== Slider ================*/
+/*==================== Popup ================*/
+.popup{
+    display: none;
+    justify-content: center;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(96, 96, 96, 0.8);
+}
+.popup_container{
+    position: fixed;
+    width: 80%;
+    max-width: 1200px;
+    background: #521378;
+    border-radius: 20px;
+    margin: 40px 0;
+    text-align: center;
+    padding: 40px 190px 70px 190px;
+}
+.li{
+    text-align: left;
+    margin-bottom: 70px;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #ED9D00;
+}
+.popup_ul{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.popup_container h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.popup_text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.url{
+    color: #ED9D00;
+    cursor: pointer;
+}
+.btm_popup{
+    background: #ED9D00;
+    box-shadow: 2px 4px 20px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 30px 60px;
+    margin-top: 70px;
+    word-wrap: normal;
+}
+.popup_container_wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.jet_small{
+    position: absolute;
+    right: -185px;
+    top: -85px;
+}
